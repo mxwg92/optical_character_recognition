@@ -1,1 +1,1 @@
-# optical_character_recognition
+# optical_character_recognition_app
