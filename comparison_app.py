@@ -5,12 +5,8 @@ import dash_daq as daq
 import dash_html_components as html
 import dash_table as dt
 import datetime
-import io
-import os
-import pandas as pd
 import webbrowser
 from dash.dependencies import Input, State, Output
-from dateutil.relativedelta import relativedelta
 from flask import request
 import logging
 from utils.logger import format_logs
@@ -72,7 +68,7 @@ app.layout = html.Div(
                             {'label': "Belt", 'value': 'Belt'},
                             {'label': "Strap", 'value': 'Strap'},
                             {'label': "Bags", 'value': 'Bag'},
-                            {'label': "Bracelets", 'value': 'Bracelet'},
+                            {'label': "Accessories", 'value': 'Bracelet'},
                             {'label': "Shades", 'value': 'Shade'}],
                         value='Shoe')]),
             html.Div(style={'padding-bottom': '20px'}),
